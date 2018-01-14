@@ -1,4 +1,4 @@
-# linux-files
+# install dev tools
 
 ```sh
 sudo apt-get install curl git -y
