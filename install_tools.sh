@@ -41,9 +41,22 @@ sudo chown $USER /etc/apache2/ -R
 sudo systemctl restart apache2
 sudo service apache2 restart
 
+# nvm & npm & bower
+cd /tmp
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o install_nvm.sh
+sudo chmod +x install_nvm.sh
+./install_nvm.sh
+source ~/.profile  #refresca la session para que vea los cambios
+nvm install v7.0.0
+npm install bower -g
+
+
 sudo apt-get install mysql-server phpmyadmin -y
 
 # visual studio code, dropbox, chome
 sudo apt-get install code dropbox google-chrome-stable
 dropbox start -i
+
+
+
 
