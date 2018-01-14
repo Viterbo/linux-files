@@ -41,7 +41,7 @@ sudo chown $USER /etc/apache2/ -R
 sudo systemctl restart apache2
 sudo service apache2 restart
 
-sudo apt-get install mysql-server phpmyadmin 
+sudo apt-get install mysql-server phpmyadmin -y
 
 # visual studio code, dropbox, chome
 sudo apt-get install code dropbox google-chrome-stable
