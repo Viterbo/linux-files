@@ -20,7 +20,6 @@ sudo apt-get upgrade
 # --------------
 sudo apt-get install apache2 -y
 sudo apt-get install php7.1 php7.1-cli php7.1-common php7.1-curl php7.1-gd php7.1-json php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-opcache php7.1-readline php7.1-zip -y
-sudo apt-get install mysql-server phpmyadmin 
  
 sudo a2enmod rewrite
 sudo a2enmod headers
@@ -42,7 +41,8 @@ sudo chown $USER /etc/apache2/ -R
 sudo systemctl restart apache2
 sudo service apache2 restart
 
- 
+sudo apt-get install mysql-server phpmyadmin 
+
 # visual studio code, dropbox, chome
 sudo apt-get install code dropbox google-chrome-stable
 dropbox start -i
