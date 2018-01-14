@@ -33,8 +33,15 @@ cd /tmp
 wget https://raw.githubusercontent.com/Viterbo/linux-files/master/index.php
 sudo mv index.php /var/www/index.php
 sudo chmod 775 /var/www -R
-sudo chown viter:www-data /var/www -R
- 
+sudo chown $USER:www-data /var/www -R
+wget https://raw.githubusercontent.com/Viterbo/linux-files/master/000-default.conf
+sudo mv 000-default.conf /etc/apache2/sites-available/000-default.conf
+sudo chmod 775 /etc/apache2/ -R
+sudo chown $USER /etc/apache2/ -R
+
+sudo systemctl restart apache2
+sudo service apache2 restart
+
  
 # visual studio code, dropbox, chome
 sudo apt-get install code dropbox google-chrome-stable
