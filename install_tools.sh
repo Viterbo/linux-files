@@ -10,6 +10,11 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
 sudo sh -c 'echo "deb http://linux.dropbox.com/ubuntu/ xenial main" >> /etc/apt/sources.list.d/dropbox.list'
 
+#ethereum
+sudo add-apt-repository -y ppa:ethereum/ethereum
+
+
+
 # chrome repo
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
@@ -50,7 +55,13 @@ source ~/.profile  #refresca la session para que vea los cambios
 nvm install v7.0.0
 npm install bower -g
 
+#ethereum
+sudo apt-get install mist ethereum software-properties-common -y
+cd /tmp
+wget https://github.com/ethereum/mist/releases/download/v0.9.3/Ethereum-Wallet-linux64-0-9-3.deb
+sudo dpkg -i Ethereum-Wallet-linux64-0-9-3.deb
 
+# phpmyadmin & mysql
 sudo apt-get install mysql-server phpmyadmin -y
 
 # visual studio code, dropbox, chome
