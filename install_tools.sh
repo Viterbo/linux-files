@@ -1,5 +1,5 @@
-sudo apt-add-repository ppa:ondrej/apache2
-sudo apt-add-repository ppa:ondrej/php
+sudo apt-add-repository ppa:ondrej/apache2 -y
+sudo apt-add-repository ppa:ondrej/php -y
  
 # repo for visual studio code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -11,7 +11,7 @@ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
 sudo sh -c 'echo "deb http://linux.dropbox.com/ubuntu/ xenial main" >> /etc/apt/sources.list.d/dropbox.list'
 
 #ethereum
-sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo add-apt-repository -y ppa:ethereum/ethereum -y
 
 
 
