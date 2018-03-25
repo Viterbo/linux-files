@@ -72,6 +72,13 @@ echo " --------------------------------------------"
 npm install -g cordova ionic
 
 
+echo " -----------------------------------"
+echo " -------------- others -------------"
+echo " -----------------------------------"
+sudo apt-get purge totem -y
+sudo apt-get install google-chrome-stable synaptic vlc -y
+
+
 echo " ------------------------------------------"
 echo " ----------- EOS dependencies -------------"
 echo " ------------------------------------------"
