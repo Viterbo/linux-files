@@ -20,8 +20,8 @@ sudo sh -c 'echo "deb http://linux.dropbox.com/ubuntu/ xenial main" >> /etc/apt/
 echo " ------------------------------------------"
 echo " -------------- Update Repos --------------"
 echo " ------------------------------------------"
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -y
+sudo apt-get upgrade -y
 
 
 
