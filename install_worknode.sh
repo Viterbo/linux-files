@@ -86,4 +86,6 @@ echo " -------------- others -------------"
 echo " -----------------------------------"
 sudo apt-get purge totem -y
 sudo apt-get install git curl code google-chrome-stable synaptic vlc -y
+sudo apt-get install openssh-server
+
 
