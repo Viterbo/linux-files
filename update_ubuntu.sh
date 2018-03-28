@@ -62,6 +62,11 @@ sudo systemctl restart apache2
 sudo service apache2 restart
 
 
+echo " ------------------------------------------"
+echo " -------- phpMyAdmin & MySQL --------------"
+echo " ------------------------------------------"
+sudo apt-get install phpmyadmin mysql-server -y
+ 
 
 
 echo " ------------------------------------------"
