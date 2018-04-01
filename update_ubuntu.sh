@@ -37,7 +37,7 @@ sudo apt-get upgrade -y
 echo " ------------------------------------------"
 echo " -------------- Basics --------------------"
 echo " ------------------------------------------"
-sudo apt-get install git curl -y
+sudo apt-get install git curl synaptic -y
 
 echo " ------------------------------------------"
 echo " -------------- Apache & PHP --------------"
@@ -77,8 +77,8 @@ echo " -----------------------------------"
 echo " -------------- others -------------"
 echo " -----------------------------------"
 sudo apt-get purge totem -y
-sudo apt-get install git curl code google-chrome-stable synaptic vlc -y
-sudo apt-get install openssh-server -y
+sudo apt-get install git curl google-chrome-stable synaptic vlc openssh-server -y
+sudo apt-get install code -y
 
 
 
