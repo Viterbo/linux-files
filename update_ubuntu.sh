@@ -69,6 +69,15 @@ sudo apt-get install phpmyadmin mysql-server -y
  
 
 
+echo " -----------------------------------"
+echo " -------------- others -------------"
+echo " -----------------------------------"
+sudo apt-get purge totem -y
+sudo apt-get install git curl code google-chrome-stable synaptic vlc -y
+sudo apt-get install openssh-server
+
+
+
 echo " ------------------------------------------"
 echo " ----------- nvm & npm & bower ------------"
 echo " ------------------------------------------"
@@ -78,4 +87,11 @@ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o 
 sudo chmod +x install_nvm.sh
 ./install_nvm.sh
 
-echo "type nvm"
+echo "open other terminal and type:"
+echo "nvm install v7.10.1"
+echo "nvm alias default v7.10.1"
+echo "npm install bower -g"
+
+
+
+
