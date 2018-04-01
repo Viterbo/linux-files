@@ -28,6 +28,10 @@ echo " ------------------------------------------"
 echo " -------------- Update Repos --------------"
 echo " ------------------------------------------"
 sudo apt-get update -y
+
+echo " ------------------------------------------"
+echo " ----------- Upgrade packages -------------"
+echo " ------------------------------------------"
 sudo apt-get upgrade -y
 
 echo " ------------------------------------------"
@@ -74,7 +78,7 @@ echo " -------------- others -------------"
 echo " -----------------------------------"
 sudo apt-get purge totem -y
 sudo apt-get install git curl code google-chrome-stable synaptic vlc -y
-sudo apt-get install openssh-server
+sudo apt-get install openssh-server -y
 
 
 
@@ -90,7 +94,7 @@ sudo chmod +x install_nvm.sh
 echo "open other terminal and type:"
 echo "nvm install v7.10.1"
 echo "nvm alias default v7.10.1"
-echo "npm install bower -g"
+echo "npm install bower ionic cordova -g"
 
 
 
