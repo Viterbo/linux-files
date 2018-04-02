@@ -13,7 +13,7 @@ sudo apt-get install clang-4.0 lldb-4.0 libclang-4.0-dev cmake make \
                      libbz2-dev libssl-dev libgmp3-dev \
                      autotools-dev build-essential \
                      libbz2-dev libicu-dev python-dev \
-                     autoconf libtool git libmongoc-1.0
+                     autoconf libtool git libmongoc-1.0 -y
 
 echo " ------------------------------------------"
 echo " -------------- Web Assembly --------------"
