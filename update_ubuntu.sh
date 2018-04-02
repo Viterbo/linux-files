@@ -77,8 +77,8 @@ echo " -----------------------------------"
 echo " -------------- others -------------"
 echo " -----------------------------------"
 sudo apt-get purge totem -y
-sudo apt-get install git curl google-chrome-stable synaptic vlc openssh-server -y
-sudo apt-get install code -y
+sudo apt-get install git curl gimp google-chrome-stable synaptic vlc openssh-server -y
+sudo apt-get install code
 
 
 
@@ -92,9 +92,10 @@ sudo chmod +x install_nvm.sh
 ./install_nvm.sh
 
 echo "open other terminal and type:"
-echo "nvm install v7.10.1"
-echo "nvm alias default v7.10.1"
-echo "npm install bower ionic cordova -g"
+echo "wget https://raw.githubusercontent.com/Viterbo/linux-files/master/update_ubuntu_part2.sh"
+echo "sudo chmod +x update_ubuntu_part2.sh"
+echo "./update_ubuntu_part2.sh"
+
 
 
 
