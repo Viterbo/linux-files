@@ -1,6 +1,11 @@
 #!/bin/bash
 
 echo " ------------------------------------------"
+echo " ----------- apt-get update ---------------"
+echo " ------------------------------------------"
+sudo apt-get update -y
+
+echo " ------------------------------------------"
 echo " ----------- EOS dependencies -------------"
 echo " ------------------------------------------"
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
@@ -14,6 +19,7 @@ echo " ------------------------------------------"
 echo " -------------- Web Assembly --------------"
 echo " ------------------------------------------"
 cd
+sudo apt-get install git -y
 git clone https://github.com/WebAssembly/binaryen
 cd binaryen
 cmake .
