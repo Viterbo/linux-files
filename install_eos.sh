@@ -45,4 +45,4 @@ echo " --------------------------------------------"
 cd /var/www
 git clone https://github.com/eosio/eos --recursive
 cd eos
-./eosio_build.sh ubuntu full
+./eosio_build.sh
