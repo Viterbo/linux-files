@@ -1,0 +1,19 @@
+
+
+-- esto sale de SuperDawn-2018-03-02 --
+autoconf ya está en su versión más reciente (2.69-9).
+autotools-dev ya está en su versión más reciente (20150820.1).
+build-essential ya está en su versión más reciente (12.1ubuntu2).
+libbz2-dev ya está en su versión más reciente (1.0.6-8).
+libgmp3-dev ya está en su versión más reciente (2:6.1.0+dfsg-2).
+libtool ya está en su versión más reciente (2.4.6-0.1).
+make ya está en su versión más reciente (4.1-6).
+clang-4.0 ya está en su versión más reciente (1:4.0-1ubuntu1~16.04.2).
+cmake ya está en su versión más reciente (3.5.1-1ubuntu3).
+curl ya está en su versión más reciente (7.47.0-1ubuntu2.7).
+git ya está en su versión más reciente (1:2.7.4-0ubuntu1.3).
+libicu-dev ya está en su versión más reciente (55.1-7ubuntu0.4).
+lldb-4.0 ya está en su versión más reciente (1:4.0-1ubuntu1~16.04.2).
+python-dev ya está en su versión más reciente (2.7.12-1~16.04).
+libclang-4.0-dev ya está en su versión más reciente (1:4.0-1ubuntu1~16.04.2).
+libssl-dev ya está en su versión más reciente (1.1.0h-2+ubuntu16.04.1+deb.sury.org+2).
