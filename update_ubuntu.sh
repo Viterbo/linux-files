@@ -91,11 +91,16 @@ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o 
 sudo chmod +x install_nvm.sh
 ./install_nvm.sh
 
+echo " ------- "
 echo "open other terminal and type:"
-echo "wget https://raw.githubusercontent.com/Viterbo/linux-files/master/update_ubuntu_part2.sh"
-echo "sudo chmod +x update_ubuntu_part2.sh"
-echo "./update_ubuntu_part2.sh"
-
+echo "nvm install v7.10.1"
+echo "nvm alias default v7.10.1"
+echo "npm install bower ionic cordova -g"
+echo " ------- "
+echo "if you wanna install eos type:"
+echo "wget https://raw.githubusercontent.com/Viterbo/linux-files/master/install_eos.sh"
+echo "sudo chmod +x install_eos.sh"
+echo "./install_eos.sh"
 
 
 
