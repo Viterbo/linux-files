@@ -37,7 +37,7 @@ sudo apt-get update -y
 echo " ------------------------------------------"
 echo " ----------- Install Docker ---------------"
 echo " ------------------------------------------"
-sudo apt-get install docker-ce
+sudo apt-get install docker-ce -y
 
 
 echo " ------------------------------------------"
