@@ -38,7 +38,7 @@ echo " ------------------------------------------"
 echo " ----------- Install Docker ---------------"
 echo " ------------------------------------------"
 sudo apt-get install docker-ce -y
-
+sudo apt install docker-compose -y
 
 echo " ------------------------------------------"
 echo " -------- Runing Hello-World --------------"
