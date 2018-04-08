@@ -25,6 +25,8 @@ echo "cd /var/www/eos/Docker" >> /var/www/eos/install.sh
 echo "docker build . -t eosio/eos" >> /var/www/eos/install.sh
 echo "echo \"to start the nodes type:\"" >> /var/www/eos/install.sh
 echo "echo \"   docker-compose up\"" >> /var/www/eos/install.sh
+echo "echo \"   docker volume create --name=nodeos-data-volume\"" >> /var/www/eos/install.sh
+echo "echo \"   docker volume create --name=keosd-data-volume\"" >> /var/www/eos/install.sh
 
 
 
