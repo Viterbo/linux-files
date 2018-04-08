@@ -8,11 +8,10 @@ cd /var/www
 git clone https://github.com/EOSIO/eos.git --recursive
 
 echo " ------------------------------------------"
-echo " ----- Running Docker EOS Container -------"
+echo " ----- Building Docker EOS Container ------"
 echo " ------------------------------------------"
 cd eos/Docker
 docker build . -t eosio/eos
-
 
 echo " ------------------------------------------"
 echo " ----- IF ERROR: permision denied ---------"
@@ -21,7 +20,11 @@ echo "type:"
 echo "   sudo usermod -a -G docker $USER"
 echo "then reboot"
 echo "finally login and type:"
-echo "   cd /var/www/eos/Docker && docker build . -t eosio/eos"
+echo "#!/bin/bash" > /var/www/eos/install.sh
+echo "cd /var/www/eos/Docker" >> /var/www/eos/install.sh
+echo "docker build . -t eosio/eos" >> /var/www/eos/install.sh
+echo "echo \"to start the nodes type:\"" >> /var/www/eos/install.sh
+echo "echo \"   docker-compose up\"" >> /var/www/eos/install.sh
 
 
 
