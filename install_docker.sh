@@ -42,7 +42,11 @@ sudo apt-get install docker-ce -y
 echo " ------------------------------------------"
 echo " ------- Install Docker Compose -----------"
 echo " ------------------------------------------"
-sudo apt install docker-compose -y
+sudo touch /usr/bin/docker-compose
+sudo chmod 777 /usr/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.11.1/docker-compose-`uname -s`-`uname -m` > /usr/bin/docker-compose
+sudo chmod +x /usr/bin/docker-compose
+docker-compose --version
 
 echo " ------------------------------------------"
 echo " -------- Runing Hello-World --------------"
