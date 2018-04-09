@@ -3,7 +3,7 @@
 echo " ------------------------------------------"
 echo " -------- Clonating EOS repo --------------"
 echo " ------------------------------------------"
-mkdir -p /var/www
+sudo mkdir -p /var/www
 cd /var/www
 git clone https://github.com/EOSIO/eos.git --recursive
 
