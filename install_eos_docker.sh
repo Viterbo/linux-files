@@ -20,6 +20,8 @@ echo "type:"
 echo "   sudo usermod -a -G docker $USER"
 echo "then reboot"
 echo "finally login and type:"
+echo "   /var/www/eos/install.sh"
+echo " "
 echo "#!/bin/bash" > /var/www/eos/install.sh
 echo "cd /var/www/eos/Docker" >> /var/www/eos/install.sh
 echo "docker build . -t eosio/eos" >> /var/www/eos/install.sh
