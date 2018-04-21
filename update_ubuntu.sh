@@ -102,6 +102,8 @@ echo "if you wanna install eos type:"
 echo "wget https://raw.githubusercontent.com/Viterbo/linux-files/master/install_eos.sh"
 echo "sudo chmod +x install_eos.sh"
 echo "./install_eos.sh"
+echo "tendria que incorporar esto para poder grabar la salida standard"
+echo "https://askubuntu.com/a/229365/820780"
 
 
 
