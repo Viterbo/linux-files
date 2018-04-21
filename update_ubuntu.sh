@@ -79,7 +79,7 @@ echo " -----------------------------------"
 sudo apt-get purge totem -y
 sudo apt-get install git curl gimp google-chrome-stable synaptic vlc openssh-server -y
 sudo apt-get install code
-sudo apt install gtk-recordmydesktop -y
+sudo apt install gtk-recordmydesktop ffmpeg -y
 
 
 
