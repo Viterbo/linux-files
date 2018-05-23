@@ -82,7 +82,6 @@ sudo apt-get install git curl gimp google-chrome-stable synaptic vlc openssh-ser
 sudo apt-get install code
 # sudo apt install gtk-recordmydesktop ffmpeg ffmulticonverter -y
 sudo apt-get install alien dpkg-dev debhelper build-essential -y
-sudo apt-get install openssh-server
 
 echo " ------------------------------------------"
 echo " ----------- nvm & npm & bower ------------"
