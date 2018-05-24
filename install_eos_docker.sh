@@ -13,6 +13,13 @@ echo " ------------------------------------------"
 cd eos/Docker
 docker build . -t eosio/eos
 
+
+#si hubiera que hacer un update sería:
+# cd /var/www/eos
+# git pull
+# cd Docker
+# docker build . -t eosio/eos:latest
+
 echo " ------------------------------------------"
 echo " ----- IF ERROR: permision denied ---------"
 echo " ------------------------------------------"
