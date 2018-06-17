@@ -94,9 +94,9 @@ sudo chmod +x install_nvm.sh
 
 echo " ------- "
 echo "open other terminal and type:"
-echo "nvm install v7.10.1"
-echo "nvm alias default v7.10.1"
-echo "npm install bower ionic cordova -g"
+echo "nvm install v9.11.2"
+echo "nvm alias default v9.11.2"
+echo "npm install bower ionic cordova @angular/cli@latest -g"
 echo " ------- "
 echo "if you wanna install eos type:"
 echo "wget https://raw.githubusercontent.com/Viterbo/linux-files/master/install_eos.sh"
