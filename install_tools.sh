@@ -53,6 +53,7 @@ sudo chmod +x install_nvm.sh
 ./install_nvm.sh
 source ~/.profile  #refresca la session para que vea los cambios
 nvm install v10.16.3
+npm install -g @angular/cli
 
 #ethereum
 #sudo apt-get install mist ethereum software-properties-common -y
