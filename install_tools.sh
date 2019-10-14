@@ -52,14 +52,13 @@ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o 
 sudo chmod +x install_nvm.sh
 ./install_nvm.sh
 source ~/.profile  #refresca la session para que vea los cambios
-nvm install v7.0.0
-npm install bower -g
+nvm install v10.16.3
 
 #ethereum
-sudo apt-get install mist ethereum software-properties-common -y
-cd /tmp
-wget https://github.com/ethereum/mist/releases/download/v0.9.3/Ethereum-Wallet-linux64-0-9-3.deb
-sudo dpkg -i Ethereum-Wallet-linux64-0-9-3.deb
+#sudo apt-get install mist ethereum software-properties-common -y
+#cd /tmp
+#wget https://github.com/ethereum/mist/releases/download/v0.9.3/Ethereum-Wallet-linux64-0-9-3.deb
+#sudo dpkg -i Ethereum-Wallet-linux64-0-9-3.deb
 
 # phpmyadmin & mysql
 sudo apt-get install mysql-server phpmyadmin -y
