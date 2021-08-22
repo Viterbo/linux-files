@@ -16,9 +16,14 @@
 
 ### Install Docker & verify
 
-    apt-cache madison docker-ce
     // List available versions
-    sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
+    apt-cache madison docker-ce
+    // check local OS version
+    cat /etc/lsb-release
+    
+    // sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
+    sudo apt-get install docker-ce=5:20.10.8~3-0~ubuntu-focal docker-ce-cli=5:20.10.8~3-0~ubuntu-focal containerd.io
+    
     systemctl status docker
     
 ### Testing installation
